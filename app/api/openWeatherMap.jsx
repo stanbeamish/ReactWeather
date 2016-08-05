@@ -1,5 +1,6 @@
 var axios = require('axios');
 
+// set a heroku variable to hide the key
 const OWM_API_KEY = process.env.OWM_API_KEY;
 const OPEN_WEATHER_MAP_URL = `http://api.openweathermap.org/data/2.5/weather?appid=${OWM_API_KEY}&units=metric`;
 
